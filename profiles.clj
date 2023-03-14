@@ -9,7 +9,7 @@
  :repl {:dependencies [[nrepl/nrepl "1.0.0"]]
 
         :plugins [[refactor-nrepl/refactor-nrepl "3.6.0"]
-                  [cider/cider-nrepl "0.29.0"]
+                  [cider/cider-nrepl "0.30.0"]
                   [mx.cider/enrich-classpath "1.9.0"]]        
         :middleware [cider.enrich-classpath/middleware]
         :enrich-classpath {:classifiers #{"sources" "javadoc"}}
