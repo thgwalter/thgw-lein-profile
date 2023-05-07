@@ -2,7 +2,7 @@
                        [org.slf4j/slf4j-simple "RELEASE"]]
         :aliases {"outdated" ["run" "-m" "antq.core"]}
 
-        :resource-paths ["C:/Users/twalter/scoop/apps/temurin19-jdk/19.0.2-7/lib/src.zip"]
+        :resource-paths ["C:/Users/twalter/scoop/apps/temurin-jdk/20.0.1-9/lib/src.zip"]
 
         :local-repo "c:/repo"}
  
@@ -14,6 +14,6 @@
         :middleware [cider.enrich-classpath/middleware]
         :enrich-classpath {:classifiers #{"sources" "javadoc"}}
 
-        :resource-paths ["C:/Users/twalter/scoop/apps/temurin19-jdk/19.0.2-7/lib/src.zip"]
+        :resource-paths ["C:/Users/twalter/scoop/apps/temurin-jdk/20.0.1-9/lib/src.zip"]
         
         :local-repo "c:/repo"}}
