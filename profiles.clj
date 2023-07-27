@@ -2,18 +2,19 @@
                        [org.slf4j/slf4j-simple "RELEASE"]]
         :aliases {"outdated" ["run" "-m" "antq.core"]}
 
-        :resource-paths ["C:/Users/twalter/scoop/apps/temurin-jdk/20.0.1-9/lib/src.zip"]
+        :resource-paths ["C:/Users/twalter/scoop/apps/zulufx-jdk/20.32.11/lib/src.zip"]
 
         :local-repo "c:/repo"}
  
  :repl {:dependencies [[nrepl/nrepl "1.0.0"]]
 
-        :plugins [[refactor-nrepl/refactor-nrepl "3.6.0"]
-                  [cider/cider-nrepl "0.30.0"]
-                  [mx.cider/enrich-classpath "1.9.0"]]        
+        :plugins [[cider/cider-nrepl "0.32.0"]
+                  [cider/orchard "0.13.0"]
+                  [refactor-nrepl/refactor-nrepl "3.9.0"]
+                  [mx.cider/enrich-classpath "1.11.2"]]        
         :middleware [cider.enrich-classpath/middleware]
         :enrich-classpath {:classifiers #{"sources" "javadoc"}}
 
-        :resource-paths ["C:/Users/twalter/scoop/apps/temurin-jdk/20.0.1-9/lib/src.zip"]
+        :resource-paths ["C:/Users/twalter/scoop/apps/zulufx-jdk/20.32.11/lib/src.zip"]
         
         :local-repo "c:/repo"}}
