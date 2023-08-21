@@ -8,7 +8,7 @@
  
  :repl {:dependencies [[nrepl/nrepl "1.0.0"]]
 
-        :plugins [[cider/cider-nrepl "0.35.1"]
+        :plugins [[cider/cider-nrepl "0.36.0"]
                   [cider/orchard "0.14.2"]
                   [refactor-nrepl/refactor-nrepl "3.9.0"]
                   [mx.cider/enrich-classpath "1.14.0"]]
