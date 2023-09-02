@@ -11,7 +11,7 @@
         :plugins [[cider/cider-nrepl "0.37.0"]
                   [cider/orchard "0.14.2"]
                   [refactor-nrepl/refactor-nrepl "3.9.0"]
-                  [mx.cider/enrich-classpath "1.15.4"]]
+                  [mx.cider/enrich-classpath "1.16.0"]]
         :middleware [cider.enrich-classpath/middleware]
         :enrich-classpath {:classifiers #{"sources" "javadoc"}}
 
