@@ -2,7 +2,7 @@
                        [org.slf4j/slf4j-simple "RELEASE"]]
         :aliases {"outdated" ["run" "-m" "antq.core"]}
 
-        :resource-paths ["C:/Users/Utilisateur/scoop/apps/zulufx-jdk/21.28.85/lib/src.zip"]
+        :resource-paths ["C:/Users/Utilisateur/scoop/apps/zulu-jdk/21.30.15/lib/src.zip"]
 
         :local-repo "c:/repo"}
  
@@ -15,6 +15,6 @@
         :middleware [cider.enrich-classpath/middleware]
         :enrich-classpath {:classifiers #{"sources" "javadoc"}}
 
-        :resource-paths ["C:/Users/Utilisateur/scoop/apps/zulufx-jdk/21.28.85/lib/src.zip"]
+        :resource-paths ["C:/Users/Utilisateur/scoop/apps/zulu-jdk/21.30.15/lib/src.zip"]
         
         :local-repo "c:/repo"}}
