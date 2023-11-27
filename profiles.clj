@@ -8,10 +8,10 @@
  
  :repl {:dependencies [[nrepl/nrepl "1.1.0"]]
 
-        :plugins [[cider/cider-nrepl "0.43.3"]
-                  [cider/orchard "0.20.0"]
+        :plugins [[cider/cider-nrepl "0.44.0"]
+                  [cider/orchard "0.21.0"]
                   [refactor-nrepl/refactor-nrepl "3.9.0"]
-                  [mx.cider/enrich-classpath "1.18.5"]]
+                  [mx.cider/enrich-classpath "1.18.6"]]
         :middleware [cider.enrich-classpath/middleware]
         :enrich-classpath {:classifiers #{"sources" "javadoc"}}
 
