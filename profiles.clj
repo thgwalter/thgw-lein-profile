@@ -6,7 +6,7 @@
 
         :local-repo "c:/repo"}
  
- :repl {:dependencies [[nrepl/nrepl "1.1.0"]]
+ :repl {:dependencies [[nrepl/nrepl "1.1.1"]]
 
         :plugins [[cider/cider-nrepl "0.44.0"]
                   [cider/orchard "0.21.0"]
