@@ -1,6 +1,6 @@
 {:user {:dependencies [[com.github.liquidz/antq "2.8.1185"]
-                       [org.slf4j/slf4j-api "2.0.12"]
-                       [org.slf4j/slf4j-simple "2.0.12"]]
+                       [org.slf4j/slf4j-api "2.0.13"]
+                       [org.slf4j/slf4j-simple "2.0.13"]]
         :aliases {"outdated" ["run" "-m" "antq.core"]}
 
         :resource-paths ["C:/Users/Utilisateur/scoop/apps/zulufx-jdk/22.28.91/lib/src.zip"
