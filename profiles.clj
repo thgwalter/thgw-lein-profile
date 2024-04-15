@@ -1,4 +1,4 @@
-{:user {:dependencies [[com.github.liquidz/antq "2.8.1185"]
+{:user {:dependencies [[com.github.liquidz/antq "2.8.1194"]
                        [org.slf4j/slf4j-api "2.0.13"]
                        [org.slf4j/slf4j-simple "2.0.13"]]
         :aliases {"outdated" ["run" "-m" "antq.core"]}
