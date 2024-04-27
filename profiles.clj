@@ -3,8 +3,8 @@
                        [org.slf4j/slf4j-simple "2.0.13"]]
         :aliases {"outdated" ["run" "-m" "antq.core"]}
 
-        :resource-paths ["C:/Users/Utilisateur/scoop/apps/zulufx-jdk/22.28.91/lib/src.zip"
-                         "C:/Users/sib_twalter/scoop/apps/zulufx-jdk/22.28.91/lib/src.zip"
+        :resource-paths ["C:/Users/Utilisateur/scoop/apps/temurin-jdk/current/lib/src.zip"
+                         "C:/Users/sib_twalter/scoop/apps/temurin-jdk/current/lib/src.zip"
                          "/home/util/opt/zulu21.30.15-ca-jdk21.0.1-linux_x64/lib/src.zip"]
 
         :local-repo "c:/repo"}
@@ -18,8 +18,8 @@
         :middleware [cider.enrich-classpath/middleware]
         :enrich-classpath {:classifiers #{"sources" "javadoc"}}
 
-        :resource-paths ["C:/Users/Utilisateur/scoop/apps/zulufx-jdk/22.28.91/lib/src.zip"
-                         "C:/Users/sib_twalter/scoop/apps/zulufx-jdk/22.28.91/lib/src.zip"
+        :resource-paths ["C:/Users/Utilisateur/scoop/apps/temurin-jdk/current/lib/src.zip"
+                         "C:/Users/sib_twalter/scoop/apps/temurin-jdk/current/lib/src.zip"
                          "/home/util/opt/zulu21.30.15-ca-jdk21.0.1-linux_x64/lib/src.zip"]
         
         :local-repo "c:/repo"}}
