@@ -1,4 +1,4 @@
-{:user {:dependencies [[com.github.liquidz/antq "2.8.1194"]
+{:user {:dependencies [[com.github.liquidz/antq "2.8.1201"]
                        [org.slf4j/slf4j-api "2.0.13"]
                        [org.slf4j/slf4j-simple "2.0.13"]]
         :aliases {"outdated" ["run" "-m" "antq.core"]}
@@ -14,7 +14,7 @@
         :plugins [[cider/cider-nrepl "0.47.1"]
                   [cider/orchard "0.23.3"]
                   [refactor-nrepl/refactor-nrepl "3.10.0"]
-                  [mx.cider/enrich-classpath "1.19.0"]]
+                  [mx.cider/enrich-classpath "1.19.3"]]
         :middleware [cider.enrich-classpath/middleware]
         :enrich-classpath {:classifiers #{"sources" "javadoc"}}
 
