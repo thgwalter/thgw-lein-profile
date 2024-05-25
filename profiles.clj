@@ -9,9 +9,9 @@
 
         :local-repo "c:/repo"}
  
- :repl {:dependencies [[nrepl/nrepl "1.1.1"]]
+ :repl {:dependencies [[nrepl/nrepl "1.1.2"]]
 
-        :plugins [[cider/cider-nrepl "0.47.1"]
+        :plugins [[cider/cider-nrepl "0.48.0"]
                   [cider/orchard "0.23.3"]
                   [refactor-nrepl/refactor-nrepl "3.10.0"]
                   [mx.cider/enrich-classpath "1.19.3"]]
