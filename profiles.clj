@@ -11,8 +11,8 @@
  
  :repl {:dependencies [[nrepl/nrepl "1.1.2"]]
 
-        :plugins [[cider/cider-nrepl "0.48.0"]
-                  [cider/orchard "0.23.3"]
+        :plugins [[cider/cider-nrepl "0.49.0"]
+                  [cider/orchard "0.26.1"]
                   [refactor-nrepl/refactor-nrepl "3.10.0"]
                   [mx.cider/enrich-classpath "1.19.3"]]
         :middleware [cider.enrich-classpath/middleware]
