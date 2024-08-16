@@ -1,6 +1,6 @@
 {:user {:dependencies [[com.github.liquidz/antq "2.8.1206"]
-                       [org.slf4j/slf4j-api "2.0.13"]
-                       [org.slf4j/slf4j-simple "2.0.13"]]
+                       [org.slf4j/slf4j-api "2.0.16"]
+                       [org.slf4j/slf4j-simple "2.0.16"]]
         :aliases {"outdated" ["run" "-m" "antq.core"]}
 
         :resource-paths ["C:/Users/Utilisateur/scoop/apps/zulufx-jdk/current/lib/src.zip"
@@ -11,8 +11,8 @@
  
  :repl {:dependencies [[nrepl/nrepl "1.2.0"]]
 
-        :plugins [[cider/cider-nrepl "0.49.2"]
-                  [cider/orchard "0.26.2"]
+        :plugins [[cider/cider-nrepl "0.49.3"]
+                  [cider/orchard "0.26.3"]
                   [refactor-nrepl/refactor-nrepl "3.10.0"]
                   [mx.cider/enrich-classpath "1.19.3"]]
         :middleware [cider.enrich-classpath/middleware]
