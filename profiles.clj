@@ -1,4 +1,4 @@
-{:user {:dependencies [[com.github.liquidz/antq "2.8.1206"]
+{:user {:dependencies [[com.github.liquidz/antq "2.10.1241"]
                        [org.slf4j/slf4j-api "2.0.16"]
                        [org.slf4j/slf4j-simple "2.0.16"]]
         :aliases {"outdated" ["run" "-m" "antq.core"]}
@@ -9,10 +9,10 @@
 
         :local-repo "c:/repo"}
  
- :repl {:dependencies [[nrepl/nrepl "1.2.0"]]
+ :repl {:dependencies [[nrepl/nrepl "1.3.0"]]
 
-        :plugins [[cider/cider-nrepl "0.49.3"]
-                  [cider/orchard "0.26.3"]
+        :plugins [[cider/cider-nrepl "0.50.2"]
+                  [cider/orchard "0.27.2"]
                   [refactor-nrepl/refactor-nrepl "3.10.0"]
                   [mx.cider/enrich-classpath "1.19.3"]]
         :middleware [cider.enrich-classpath/middleware]
