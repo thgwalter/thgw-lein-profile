@@ -10,7 +10,7 @@
  :repl {:dependencies [[nrepl/nrepl "1.3.1"]]
 
         :plugins [[cider/cider-nrepl "0.56.0"]
-                  [cider/orchard "0.34.3"]
+                  [cider/orchard "0.35.0"]
                   [refactor-nrepl/refactor-nrepl "3.11.0"]]
         
         ;;:local-repo "c:/repo"
