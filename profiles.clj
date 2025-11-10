@@ -4,14 +4,12 @@
         
         :aliases {"outdated" ["run" "-m" "antq.core"]}
 
-        ;;:local-repo "c:/repo"
-        }
- 
- :repl {:dependencies [[nrepl/nrepl "1.3.1"]]
+        :local-repo "c:/repo"}
 
-        :plugins [[cider/cider-nrepl "0.56.0"]
-                  [cider/orchard "0.35.0"]
+ :repl {:dependencies [[nrepl/nrepl "1.5.1"]]
+
+        :plugins [[cider/cider-nrepl "0.58.0"]
+                  [cider/orchard "0.37.1"]
                   [refactor-nrepl/refactor-nrepl "3.11.0"]]
         
-        ;;:local-repo "c:/repo"
-        }}
+        :local-repo "c:/repo"}}
