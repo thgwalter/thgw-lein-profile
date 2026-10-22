@@ -1,15 +1,11 @@
 {:user {:dependencies [[com.github.liquidz/antq "2.11.1276"]
-                       [org.slf4j/slf4j-api "2.0.17"]
-                       [org.slf4j/slf4j-simple "2.0.17"]]
+                       [org.slf4j/slf4j-api "2.0.20"]
+                       [org.slf4j/slf4j-simple "2.0.20"]]
         
-        :aliases {"outdated" ["run" "-m" "antq.core"]}
+        :aliases {"outdated" ["run" "-m" "antq.core"]}}
 
-        :local-repo "c:/repo"}
+ :repl {:dependencies [[nrepl/nrepl "1.8.0"]]
 
- :repl {:dependencies [[nrepl/nrepl "1.5.2"]]
-
-        :plugins [[cider/cider-nrepl "0.58.0"]
-                  [cider/orchard "0.37.1"]
-                  [refactor-nrepl/refactor-nrepl "3.11.0"]]
-        
-        :local-repo "c:/repo"}}
+        :plugins [[cider/cider-nrepl "0.63.1"]
+                  [cider/orchard "0.45.0"]
+                  [refactor-nrepl/refactor-nrepl "3.14.0"]]}}
