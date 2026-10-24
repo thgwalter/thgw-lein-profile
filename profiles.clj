@@ -7,5 +7,5 @@
  :repl {:dependencies [[nrepl/nrepl "1.8.0"]]
 
         :plugins [[cider/cider-nrepl "0.63.1"]
-                  [cider/orchard "0.45.0"]
+                  [cider/orchard "0.46.0"]
                   [refactor-nrepl/refactor-nrepl "3.14.0"]]}}
